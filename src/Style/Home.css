@@ -1,0 +1,109 @@
+.container {
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  background-image: linear-gradient(to right, #18b0df, #7f4dc6);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.intro {
+  text-align: center;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 600;
+  color: white;
+}
+
+.description {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.read-more {
+  margin-top: 15px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.classes {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.class-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.class-description {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.card-container {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-title {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.card-description {
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+.card-button {
+  margin-top: 15px;
+  background-color: aliceblue;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.footer div {
+  flex: 1;
+  text-align: center;
+}
+
+.footer div:last-child {
+  text-align: right;
+}
